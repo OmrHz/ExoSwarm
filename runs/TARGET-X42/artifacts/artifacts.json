@@ -1,0 +1,119 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "TARGET-X42:bls_periodogram_data:npz",
+      "media_type": "application/x-npz",
+      "relative_path": "artifacts/science/bls_periodogram.npz",
+      "role": "bls_periodogram_data",
+      "sha256": "3214549dae0a1bb46c5b7a824a6257e28f9ce495b650902500cd091cfd182943"
+    },
+    {
+      "artifact_id": "TARGET-X42:bls_periodogram_plot:png",
+      "media_type": "image/png",
+      "relative_path": "artifacts/science/bls_periodogram.png",
+      "role": "bls_periodogram_plot",
+      "sha256": "100b4c5adf3cfe349dcc9cb484fc09db712ba2cb51ed183e7f6b55ab20edfbe7"
+    },
+    {
+      "artifact_id": "TARGET-X42:cleaned_light_curve_data:npz",
+      "media_type": "application/x-npz",
+      "relative_path": "artifacts/science/cleaned_light_curve.npz",
+      "role": "cleaned_light_curve_data",
+      "sha256": "4d97bf0c6614db2e44989f307cdc2c4bbaafc64fde99c7abf318a7ceaf041096"
+    },
+    {
+      "artifact_id": "TARGET-X42:cleaned_light_curve_plot:png",
+      "media_type": "image/png",
+      "relative_path": "artifacts/science/cleaned_light_curve.png",
+      "role": "cleaned_light_curve_plot",
+      "sha256": "8817c29f4397901f3ef903d7114fa1be5e0e597739fdf98ce33d3f2631c99251"
+    },
+    {
+      "artifact_id": "TARGET-X42:harmonic_test_data:npz",
+      "media_type": "application/x-npz",
+      "relative_path": "artifacts/science/harmonic_test.npz",
+      "role": "harmonic_test_data",
+      "sha256": "ffb1d5b037c3a638db0425eb15dab2d4dc3fa287533ac5196d72676e665ed086"
+    },
+    {
+      "artifact_id": "TARGET-X42:harmonic_test_plot:png",
+      "media_type": "image/png",
+      "relative_path": "artifacts/science/harmonic_test.png",
+      "role": "harmonic_test_plot",
+      "sha256": "a3fa1eec782c67be0366c456e85cc0d9f99a5f04e40652915fc3ae87d60230db"
+    },
+    {
+      "artifact_id": "TARGET-X42:normalized_light_curve_data:npz",
+      "media_type": "application/x-npz",
+      "relative_path": "artifacts/science/normalized_light_curve.npz",
+      "role": "normalized_light_curve_data",
+      "sha256": "42ea010d21e5ef9b2756def2e42e639e865d347b4da86e24ddcc7115622bc1c3"
+    },
+    {
+      "artifact_id": "TARGET-X42:normalized_light_curve_plot:png",
+      "media_type": "image/png",
+      "relative_path": "artifacts/science/normalized_light_curve.png",
+      "role": "normalized_light_curve_plot",
+      "sha256": "34a2f1457c636830f5e2172ca18debc087129f988decacd8d5f0d29a20e5860a"
+    },
+    {
+      "artifact_id": "TARGET-X42:odd_even_data:npz",
+      "media_type": "application/x-npz",
+      "relative_path": "artifacts/science/odd_even.npz",
+      "role": "odd_even_data",
+      "sha256": "71d5b1cefdf21e9f36eecbfe4f9f07700299f4bca496329d767c4988f206d761"
+    },
+    {
+      "artifact_id": "TARGET-X42:odd_even_plot:png",
+      "media_type": "image/png",
+      "relative_path": "artifacts/science/odd_even.png",
+      "role": "odd_even_plot",
+      "sha256": "939c9b6054a4f0d75bfb539e8b4bdb6094c21778b5b505792e453936ed70c971"
+    },
+    {
+      "artifact_id": "TARGET-X42:phase_folded_data:npz",
+      "media_type": "application/x-npz",
+      "relative_path": "artifacts/science/phase_folded.npz",
+      "role": "phase_folded_data",
+      "sha256": "e16bbceadae2d6be6f3aa81408a0a78325871ce97ce88d8a3ff498a568d9bcf2"
+    },
+    {
+      "artifact_id": "TARGET-X42:phase_folded_plot:png",
+      "media_type": "image/png",
+      "relative_path": "artifacts/science/phase_folded.png",
+      "role": "phase_folded_plot",
+      "sha256": "44ac88d590d7fb909bf7216a8b9a58831dd44e1b13649300c7009e82dd1b1bc3"
+    },
+    {
+      "artifact_id": "TARGET-X42:raw_light_curve_data:npz",
+      "media_type": "application/x-npz",
+      "relative_path": "artifacts/science/raw_light_curve.npz",
+      "role": "raw_light_curve_data",
+      "sha256": "c5cb01a4793fd349caeed85addc7e31c70c4f7b81176cad1b8a3af7541f84120"
+    },
+    {
+      "artifact_id": "TARGET-X42:raw_light_curve_plot:png",
+      "media_type": "image/png",
+      "relative_path": "artifacts/science/raw_light_curve.png",
+      "role": "raw_light_curve_plot",
+      "sha256": "a7ef3460a51a9aaa371b0b13e352ab2ee8229984d2f3f0d53a1aa57de0779b99"
+    },
+    {
+      "artifact_id": "TARGET-X42:secondary_eclipse_data:npz",
+      "media_type": "application/x-npz",
+      "relative_path": "artifacts/science/secondary_eclipse.npz",
+      "role": "secondary_eclipse_data",
+      "sha256": "0e26d2742b728c49da1a0f1334b6800a5ffaa330fe81eb257494263b8b07bcdf"
+    },
+    {
+      "artifact_id": "TARGET-X42:secondary_eclipse_plot:png",
+      "media_type": "image/png",
+      "relative_path": "artifacts/science/secondary_eclipse.png",
+      "role": "secondary_eclipse_plot",
+      "sha256": "979af65607484fe4771de50f4829086e53b09e946f528c0470b73273c690a54a"
+    }
+  ],
+  "opaque_target_id": "TARGET-X42",
+  "path_base": "run_directory",
+  "schema_version": "1.0"
+}

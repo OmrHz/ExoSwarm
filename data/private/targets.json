@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "warning": "BACKEND PRIVATE: never provide this file or its values to an agent before result lock.",
+  "targets": [
+    {
+      "opaque_target_id": "TARGET-X17",
+      "actual_target_identity": "TIC 261867566 / TOI-905",
+      "products": {
+        "light_curve": {
+          "original_filename": "tess2019140104343-s0012-0000000261867566-0144-s_lc.fits",
+          "source_uri": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:TESS/product/tess2019140104343-s0012-0000000261867566-0144-s_lc.fits",
+          "mast_observation_id": "65182908"
+        },
+        "target_pixel": {
+          "original_filename": "tess2019140104343-s0012-0000000261867566-0144-s_tp.fits",
+          "source_uri": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:TESS/product/tess2019140104343-s0012-0000000261867566-0144-s_tp.fits",
+          "mast_observation_id": "65182908"
+        }
+      },
+      "ground_truth": {
+        "catalog_name": "NASA Exoplanet Archive",
+        "catalog_status": "CONFIRMED PLANET",
+        "measurements": {
+          "period_days": {"value": 3.739494, "unit": "d", "uncertainty": 0.000038, "source_field": "pl_orbper"},
+          "epoch_btjd": {"value": 1643.30898, "unit": "BTJD", "uncertainty": 0.00020, "source_field": "pl_tranmid minus 2457000"},
+          "transit_depth_ppm": {"value": 17180.0, "unit": "ppm", "uncertainty": 310.0, "source_field": "pl_trandep"},
+          "duration_hours": {"value": 2.028, "unit": "h", "uncertainty": 0.0312, "source_field": "pl_trandur"}
+        },
+        "source_uri": "https://exoplanetarchive.ipac.caltech.edu/overview/TOI-905"
+      }
+    },
+    {
+      "opaque_target_id": "TARGET-X42",
+      "actual_target_identity": "TIC 80059889",
+      "products": {
+        "light_curve": {
+          "original_filename": "tess2019169103026-s0013-0000000080059889-0146-s_lc.fits",
+          "source_uri": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:TESS/product/tess2019169103026-s0013-0000000080059889-0146-s_lc.fits",
+          "mast_observation_id": "65457041"
+        },
+        "target_pixel": {
+          "original_filename": "tess2019169103026-s0013-0000000080059889-0146-s_tp.fits",
+          "source_uri": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:TESS/product/tess2019169103026-s0013-0000000080059889-0146-s_tp.fits",
+          "mast_observation_id": "65457041"
+        }
+      },
+      "ground_truth": {
+        "catalog_name": "MAST TESS Eclipsing Binary Catalog",
+        "catalog_status": "ECLIPSING BINARY",
+        "measurements": {
+          "period_days": {"value": 3.0319175718, "unit": "d", "uncertainty": 0.000145346, "source_field": "period"},
+          "epoch_btjd": {"value": 1657.637394, "unit": "BTJD", "uncertainty": 0.000983, "source_field": "bjd0"},
+          "primary_depth_ppm": {"value": 136780.0, "unit": "ppm", "uncertainty": null, "source_field": "primdepth"},
+          "secondary_depth_ppm": {"value": 55440.0, "unit": "ppm", "uncertainty": null, "source_field": "secdepth"},
+          "secondary_phase": {"value": 0.500243, "unit": "phase", "uncertainty": null, "source_field": "secphase"}
+        },
+        "source_uri": "https://tessebs.villanova.edu/80059889"
+      }
+    }
+  ],
+  "catalog_sources": [
+    "https://doi.org/10.3847/1538-3881/aba49d",
+    "https://doi.org/10.17909/t9-9gm4-fx30",
+    "https://doi.org/10.3847/1538-4365/ac324a"
+  ]
+}

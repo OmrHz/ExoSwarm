@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+.env
+.streamlit/secrets.toml
+runs/reproductions/
+runs/ablations/
+runs/fixed/
+runs/integration-smoke/
+runs/failed-smoke-*/
+runs/validation-artifacts-*/
+runs/live-validation/
+runs/quickstart-*/
+runs/video-demo-*/
+
+# The two curated source products are intentionally versioned. Ad-hoc downloads are not.
+data/downloads/
+data/work/

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "opaque_target_id": "TARGET-X17",
+  "mission": "TESS",
+  "pipeline": "SPOC",
+  "sector": 12,
+  "cadence_seconds": 120.0,
+  "retrieved_at": "2026-08-14T23:24:00-04:00",
+  "archive_collection_url": "https://archive.stsci.edu/missions-and-data/tess/data-products",
+  "products": {
+    "light_curve": {
+      "path": "source_lc.fits",
+      "size_bytes": 2041920,
+      "sha256": "9810f9f8f2cf12e0b5951d87cb74d6745bff8f6eec13a99e34b94b79dcd700f0",
+      "media_type": "application/fits"
+    },
+    "target_pixel": {
+      "path": "source_tpf.fits",
+      "size_bytes": 49291200,
+      "sha256": "52d562c8ae8f92ea645c156b699276f1df5c7a52ffa9d338e589bf1c2b85b714",
+      "media_type": "application/fits"
+    }
+  },
+  "neighbor_context": {
+    "catalog": "TESS Input Catalog v8 via MAST",
+    "queried_at": "2026-08-14T23:21:00-04:00",
+    "nearest_neighbor_separation_arcsec": 2.137036700286236,
+    "nearest_neighbor_delta_tmag": 6.2128,
+    "nearest_neighbor_pixel_offset_x": 0.09902970625665208,
+    "nearest_neighbor_pixel_offset_y": 0.030207850875858533,
+    "search_radius_arcsec": 60.0
+  },
+  "notes": [
+    "The manifest is identity-free; exact product URLs and catalog truth are backend-private.",
+    "The cached products are unmodified public NASA/MAST TESS mission files."
+  ]
+}
